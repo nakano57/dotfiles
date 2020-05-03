@@ -1,0 +1,6 @@
+#画面を分割して右下はtopコマンド実行
+select-pane -t 0
+split-window -v -l 20
+
+#メインのペインをアクティブにする
+select-pane -t 0
