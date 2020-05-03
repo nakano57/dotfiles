@@ -1,4 +1,4 @@
-#画面を分割して右下はtopコマンド実行
+#画面を縦に分割
 select-pane -t 0
 split-window -v -l 20
 
